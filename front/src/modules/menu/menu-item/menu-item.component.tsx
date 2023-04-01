@@ -1,4 +1,9 @@
-export const MenuItem = () => {
+interface MenuItemProps {
+
+}
+
+
+export const MenuItem = ({ }) => {
    return (
       <div className="w-96 shadow-xl rounded-2xl bg-white">
          <div className="relative">
@@ -10,7 +15,15 @@ export const MenuItem = () => {
             </span>
          </div>
          <div className="p-8">
-            <h2>Піца Мангеттен</h2>
+            <h2 className="text-xl font-semibold mb-2">
+               Піца Мангеттен
+            </h2>
+            <p className="mb-8">
+               (подвійна порція грибів), Гриби, Моцарела, Пепероні, Соус Альфредо
+            </p>
+            <span className="text-xl font-semibold">
+               215 грн.
+            </span>
          </div>
       </div>
    )

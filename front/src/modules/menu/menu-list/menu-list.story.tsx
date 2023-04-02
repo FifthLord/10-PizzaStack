@@ -7,7 +7,7 @@ export default {
    component: MenuList,
 } as ComponentMeta<typeof MenuList>;
 
-const Template: ComponentStory<typeof MenuList> = (args: any) => <MenuList {...args} />;
+const Template: ComponentStory<typeof MenuList> = () => <MenuList />;
 
 export const View = Template.bind({});
 

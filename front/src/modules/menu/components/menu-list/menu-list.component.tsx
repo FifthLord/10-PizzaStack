@@ -1,4 +1,4 @@
-import pizzaMenu from '../../../mocks/pizza.json'
+import pizzaMenu from '../../../../mocks/pizza.json'
 import { MenuItem } from '../menu-item/menu-item.component'
 
 export const MenuList = () => {

@@ -1,5 +1,5 @@
 # App to pizza store 
-In this project I learned how use Typescript, Storybook, Tailwind etc. in this kind of store
+In this project I learned how use React, Typescript, Storybook, Tailwind etc. in this kind of store
 
 # init proj
 npm init
